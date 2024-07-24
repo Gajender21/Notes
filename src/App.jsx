@@ -59,10 +59,7 @@ function App() {
         setCurrentTheme(currentTheme);
         break;
     }
-    // for (const color in themes){
-    //   if(themes[color]==input){
-    //     setCurrentTheme(themes.input)
-    //   }
+
     console.log(currentTheme);
   }
 

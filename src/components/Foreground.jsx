@@ -77,7 +77,9 @@ function Foreground({ theme, changeTheme, themes }) {
             onChange={changeTheme}
             id="theme"
             name="theme"
-            className={theme.textColor + " " + theme.bgColor + " pl-2"}
+            className={
+              theme.textColor + " " + theme.bgColor + " cursor-pointer pl-2"
+            }
           >
             <option defaultValue={theme.color}>{theme.color}</option>
             <option value="grey">Grey(Default)</option>
